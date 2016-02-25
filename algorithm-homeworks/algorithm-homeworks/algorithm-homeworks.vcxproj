@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4FAF570A-54B6-451F-A5E7-B6FC2A8ECAB1}</ProjectGuid>
+    <ProjectGuid>{9B6C269E-3794-4D5A-87AA-640F9E22F955}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>prMiniProject</RootNamespace>
+    <RootNamespace>algorithmhomeworks</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,10 +146,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="trainNetwork.c" />
+    <ClCompile Include="Ex1_3.cpp" />
+    <ClCompile Include="Ex1_1.cpp" />
+    <ClCompile Include="Ex1_2.cpp" />
+    <ClCompile Include="Ex1_5.cpp" />
+    <ClCompile Include="Ex1_7.cpp" />
+    <ClCompile Include="Ex1_9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
